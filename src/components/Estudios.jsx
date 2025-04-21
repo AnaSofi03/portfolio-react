@@ -1,19 +1,43 @@
 import React from 'react';
+import '../styles/App.css';
 
 function Estudios() {
   const estudios = [
-    'Tecnicatura Universitaria en Programación - UTN',
-    'Curso de Desarrollo Web - Argentina Programa',
-    'Curso de React - Coderhouse',
-    'Curso de JavaScript - Udemy',
+    {
+      titulo: 'Técnico Universitario en Programación',
+      institucion: 'UTN - Facultad Regional Tucumán',
+      fecha: '2021 - Finalizado',
+    },
+    {
+      titulo: 'Curso de Desarrollo Web',
+      institucion: 'Argentina Programa',
+      fecha: '2022',
+    },
+    {
+      titulo: 'Curso de React',
+      institucion: 'Coderhouse',
+      fecha: '2023',
+    },
+    {
+      titulo: 'Curso de JavaScript',
+      institucion: 'Udemy',
+      fecha: '2023',
+    },
   ];
 
   return (
-    <ul>
-      {estudios.map((e, i) => (
-        <li key={i}>{e}</li>
-      ))}
-    </ul>
+    <div className="estudios-container">
+      <h2>📚 Estudios</h2>
+      <ul>
+        {estudios.map((estudio, i) => (
+          <li key={i}>
+            <strong>{estudio.titulo}</strong><br />
+            <span>{estudio.institucion}</span><br />
+            <small>{estudio.fecha}</small>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
