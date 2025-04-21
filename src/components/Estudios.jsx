@@ -6,7 +6,7 @@ function Estudios() {
     {
       titulo: 'Técnico Universitario en Programación',
       institucion: 'UTN - Facultad Regional Tucumán',
-      fecha: '2021 - Finalizado',
+      fecha: '2024 - Cursando',
     },
     {
       titulo: 'Curso de Desarrollo Web',
