@@ -9,19 +9,19 @@ function Proyectos() {
           titulo: 'Portfolio Web',
           imagen: '/assets/portafolio.png',
           descripcion: 'Mi portfolio personal hecho con HTML, CSS y JavaScript.',
-          link: 'https://github.com/tuusuario/portfolio-web',
+          link: '',
         },
         {
           titulo: 'Generador de QR Codes',
           imagen: '/assets/codigoQR.png', 
           descripcion: 'Aplicación para crear códigos QR',
-          link: 'https://github.com/tuusuario/app-tareas',
+          link: '',
         },
         {
           titulo: 'Clon de Netflix',
           imagen: '/assets/cloneQr.png',
           descripcion: 'Clon de la interfaz de Netflix usando React y API de películas.',
-          link: 'https://github.com/tuusuario/netflix-clon',
+          link: '',
         },
       ];
       
